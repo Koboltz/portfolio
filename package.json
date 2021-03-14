@@ -1,6 +1,6 @@
 {
   "name": "myportfolio",
-  "homepage": "http://curtiswebdev.me",
+  "homepage": "http://curtiswebdev.me/public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
