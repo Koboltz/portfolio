@@ -1,2 +1,6 @@
-- export DEPLOYPATH=/home/curtiswebdev/public_html/
-- /public/index.html $DEPLOYPATH
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/curtiswebdev/public_html/
+    - /bin/cp -R build/ $DEPLOYPATH
+    
